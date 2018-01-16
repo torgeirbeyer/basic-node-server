@@ -9,7 +9,6 @@ http.createServer(function(req, res) {
   // first we create the headersin the response
   res.writeHead(200, { 'Content-Type': 'text/plain' })
   //this means the response is ending and its the last thing in the res
-  // \n means new line
   res.end('Hello world\n');
 
 //Listen on a port(number) and an adress(string). Port can be anything, the IP now is localhost
